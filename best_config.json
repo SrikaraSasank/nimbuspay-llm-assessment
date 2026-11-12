@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "quant4": false,
+  "rank": 16,
+  "alpha": 32,
+  "lr": 0.0002,
+  "epochs": 2,
+  "seed": 42,
+  "clean": false,
+  "compact": false,
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+}

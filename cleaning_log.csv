@@ -1,0 +1,304 @@
+id,action,reason
+tr-00013,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00018,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00020,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '02/09/2026' -> '2026-09-02'
+tr-00023,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00045,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-00049,fix,legacy priority key/value: priority None -> 'P3'
+tr-00058,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '26/08/2026' -> '2026-08-26'
+tr-00059,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00060,drop,invalid/truncated target JSON; no label reconstruction
+tr-00071,fix,normalize transaction ID: txn_id 'NP-9718716109' -> 'NP9718716109'
+tr-00072,fix,legacy priority key/value: priority None -> 'P3'
+tr-00073,fix,unique explicit claim amount: amount_paise 168787 -> 16878725
+tr-00077,fix,legacy priority key/value: priority None -> 'P2'; legacy date format: txn_date '29/07/2026' -> '2026-07-29'
+tr-00078,fix,remove quoted earlier emails from training input
+tr-00082,fix,remove quoted earlier emails from training input
+tr-00095,drop,invalid/truncated target JSON; no label reconstruction
+tr-00111,fix,remove quoted earlier emails from training input
+tr-00114,fix,legacy priority key/value: priority None -> 'P3'
+tr-00120,fix,legacy priority key/value: priority None -> 'P3'
+tr-00123,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '21/07/2026' -> '2026-07-21'
+tr-00125,drop,invalid/truncated target JSON; no label reconstruction
+tr-00129,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00135,fix,remove quoted earlier emails from training input
+tr-00144,fix,unique explicit claim amount: amount_paise 167 -> 16700
+tr-00146,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00147,fix,normalize transaction ID: txn_id 'np9891267518' -> 'NP9891267518'
+tr-00151,fix,normalize transaction ID: txn_id 'NP-2339259875' -> 'NP2339259875'
+tr-00153,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '04/09/2026' -> '2026-09-04'
+tr-00154,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00156,drop,exact duplicate of tr-00030
+tr-00160,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '08/08/2026' -> '2026-08-08'
+tr-00167,fix,unique explicit claim amount: amount_paise 267 -> 26700
+tr-00168,fix,remove quoted earlier emails from training input
+tr-00172,drop,invalid/truncated target JSON; no label reconstruction
+tr-00178,fix,legacy priority key/value: priority None -> 'P3'
+tr-00179,fix,remove quoted earlier emails from training input
+tr-00184,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-00187,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00189,fix,remove quoted earlier emails from training input
+tr-00192,fix,legacy priority key/value: priority None -> 'P2'
+tr-00199,fix,unique explicit claim amount: amount_paise 674 -> 67400
+tr-00208,drop,exact duplicate of tr-00150
+tr-00211,drop,exact duplicate of tr-00137
+tr-00212,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-00219,fix,legacy priority key/value: priority None -> 'P3'
+tr-00220,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00222,fix,unique explicit claim amount: amount_paise 594 -> 59450
+tr-00223,fix,legacy priority key/value: priority None -> 'P3'
+tr-00225,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00226,drop,exact duplicate of tr-00070
+tr-00249,fix,legacy priority key/value: priority None -> 'P2'; legacy date format: txn_date '23/08/2026' -> '2026-08-23'
+tr-00258,fix,legacy priority key/value: priority None -> 'P3'
+tr-00263,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '11/07/2026' -> '2026-07-11'
+tr-00267,drop,invalid/truncated target JSON; no label reconstruction
+tr-00293,fix,remove quoted earlier emails from training input
+tr-00294,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00297,drop,exact duplicate of tr-00142
+tr-00306,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00307,fix,remove quoted earlier emails from training input
+tr-00309,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00312,fix,schema priority precedence: priority 'P1' -> 'P3'; remove quoted earlier emails from training input
+tr-00313,fix,remove quoted earlier emails from training input
+tr-00318,fix,remove quoted earlier emails from training input
+tr-00320,fix,legacy priority key/value: priority None -> 'P3'
+tr-00321,fix,remove quoted earlier emails from training input
+tr-00346,fix,legacy priority key/value: priority None -> 'P2'
+tr-00347,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '07/08/2026' -> '2026-08-07'
+tr-00349,drop,exact duplicate of tr-00217
+tr-00355,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00357,drop,invalid/truncated target JSON; no label reconstruction
+tr-00364,drop,exact duplicate of tr-00173
+tr-00365,fix,legacy priority key/value: priority None -> 'P3'
+tr-00369,fix,remove quoted earlier emails from training input
+tr-00370,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '10/09/2026' -> '2026-09-10'
+tr-00372,fix,remove quoted earlier emails from training input
+tr-00373,drop,exact duplicate of tr-00345
+tr-00380,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00382,fix,schema priority precedence: priority 'P2' -> 'P3'
+tr-00383,fix,remove quoted earlier emails from training input
+tr-00385,fix,legacy priority key/value: priority None -> 'P3'
+tr-00391,fix,normalize transaction ID: txn_id 'NP 9255627510' -> 'NP9255627510'
+tr-00407,fix,unique explicit claim amount: amount_paise 359 -> 35900
+tr-00413,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00420,fix,normalize transaction ID: txn_id 'np 81633 47892' -> 'NP8163347892'
+tr-00424,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-00427,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-00436,drop,exact duplicate of tr-00175
+tr-00452,fix,schema priority precedence: priority 'P1' -> 'P3'; remove quoted earlier emails from training input
+tr-00454,drop,exact duplicate of tr-00444
+tr-00456,fix,remove quoted earlier emails from training input
+tr-00457,fix,legacy priority key/value: priority None -> 'P3'
+tr-00459,fix,remove quoted earlier emails from training input
+tr-00460,fix,normalize transaction ID: txn_id 'NP 6949410784' -> 'NP6949410784'
+tr-00461,fix,legacy priority key/value: priority None -> 'P2'
+tr-00470,fix,normalize transaction ID: txn_id 'np 11245 46709' -> 'NP1124546709'
+tr-00472,fix,unique explicit claim amount: amount_paise 5815 -> 581500
+tr-00475,fix,legacy priority key/value: priority None -> 'P2'
+tr-00476,drop,exact duplicate of tr-00191
+tr-00478,drop,invalid/truncated target JSON; no label reconstruction
+tr-00485,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00497,drop,invalid/truncated target JSON; no label reconstruction
+tr-00502,drop,exact duplicate of tr-00323
+tr-00503,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00505,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00508,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00516,fix,legacy priority key/value: priority None -> 'P2'
+tr-00523,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00524,fix,remove quoted earlier emails from training input
+tr-00532,drop,exact duplicate of tr-00435
+tr-00533,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00534,drop,exact duplicate of tr-00251
+tr-00546,drop,exact duplicate of tr-00490
+tr-00556,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '13/07/2026' -> '2026-07-13'
+tr-00558,drop,invalid/truncated target JSON; no label reconstruction
+tr-00560,fix,unique explicit claim amount: amount_paise 1100 -> 110000
+tr-00566,fix,remove quoted earlier emails from training input
+tr-00567,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00570,fix,normalize transaction ID: txn_id 'np 87267 97611' -> 'NP8726797611'
+tr-00571,fix,remove quoted earlier emails from training input
+tr-00573,drop,exact duplicate of tr-00203
+tr-00576,fix,remove quoted earlier emails from training input
+tr-00577,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '06/08/2026' -> '2026-08-06'
+tr-00581,fix,remove quoted earlier emails from training input
+tr-00584,fix,remove quoted earlier emails from training input
+tr-00589,fix,legacy priority key/value: priority None -> 'P3'
+tr-00595,fix,normalize transaction ID: txn_id 'np3247474643' -> 'NP3247474643'
+tr-00602,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '29/06/2026' -> '2026-06-29'
+tr-00605,drop,invalid/truncated target JSON; no label reconstruction
+tr-00606,fix,legacy priority key/value: priority None -> 'P2'
+tr-00610,fix,legacy priority key/value: priority None -> 'P3'
+tr-00622,fix,unique explicit claim amount: amount_paise 3702 -> 370200
+tr-00628,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '13/06/2026' -> '2026-06-13'
+tr-00638,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-00648,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00649,fix,normalize transaction ID: txn_id 'NP-8919677483' -> 'NP8919677483'
+tr-00653,fix,unique explicit claim amount: amount_paise 1179 -> 117900
+tr-00654,fix,remove quoted earlier emails from training input
+tr-00656,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '20/06/2026' -> '2026-06-20'
+tr-00665,drop,exact duplicate of tr-00322
+tr-00670,fix,legacy priority key/value: priority None -> 'P2'; legacy date format: txn_date '20/08/2026' -> '2026-08-20'
+tr-00674,drop,invalid/truncated target JSON; no label reconstruction
+tr-00677,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '14/08/2026' -> '2026-08-14'
+tr-00680,fix,remove quoted earlier emails from training input
+tr-00685,fix,legacy priority key/value: priority None -> 'P3'
+tr-00688,fix,unique explicit claim amount: amount_paise 209 -> 20900
+tr-00689,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00691,fix,unique explicit claim amount: amount_paise 678 -> 67800
+tr-00701,drop,exact duplicate of tr-00384
+tr-00704,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '03/06/2026' -> '2026-06-03'
+tr-00706,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00707,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00716,drop,exact duplicate of tr-00149
+tr-00717,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00727,fix,unique explicit claim amount: amount_paise 17914 -> 1791499
+tr-00735,drop,invalid/truncated target JSON; no label reconstruction
+tr-00744,fix,legacy priority key/value: priority None -> 'P2'
+tr-00745,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00746,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00757,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00761,drop,exact duplicate of tr-00127
+tr-00765,drop,invalid/truncated target JSON; no label reconstruction
+tr-00766,fix,remove quoted earlier emails from training input
+tr-00769,fix,remove quoted earlier emails from training input
+tr-00771,fix,normalize transaction ID: txn_id 'np9038808761' -> 'NP9038808761'
+tr-00773,drop,exact duplicate of tr-00186
+tr-00778,fix,legacy priority key/value: priority None -> 'P3'
+tr-00782,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00783,drop,exact duplicate of tr-00441
+tr-00791,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '31/08/2026' -> '2026-08-31'
+tr-00795,fix,unique explicit claim amount: amount_paise 34300 -> 3430000
+tr-00800,drop,exact duplicate of tr-00530
+tr-00802,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00809,drop,invalid/truncated target JSON; no label reconstruction
+tr-00811,drop,exact duplicate of tr-00052
+tr-00817,fix,remove quoted earlier emails from training input
+tr-00820,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '31/05/2026' -> '2026-05-31'
+tr-00824,drop,invalid/truncated target JSON; no label reconstruction
+tr-00833,fix,remove quoted earlier emails from training input
+tr-00838,fix,normalize transaction ID: txn_id 'NP 6186175115' -> 'NP6186175115'
+tr-00839,fix,legacy priority key/value: priority None -> 'P2'; legacy date format: txn_date '17/09/2026' -> '2026-09-17'
+tr-00843,drop,exact duplicate of tr-00479
+tr-00845,fix,unique explicit claim amount: amount_paise 2999 -> 299900
+tr-00846,drop,invalid/truncated target JSON; no label reconstruction
+tr-00852,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-00861,fix,remove quoted earlier emails from training input
+tr-00879,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00880,drop,exact duplicate of tr-00451
+tr-00888,fix,normalize transaction ID: txn_id 'np7786684387' -> 'NP7786684387'
+tr-00890,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-00899,fix,normalize transaction ID: txn_id 'NP-1325500121' -> 'NP1325500121'
+tr-00908,fix,normalize transaction ID: txn_id 'np 45856 96868' -> 'NP4585696868'
+tr-00913,drop,exact duplicate of tr-00181
+tr-00920,fix,unique explicit claim amount: amount_paise 853 -> 85300
+tr-00922,fix,legacy priority key/value: priority None -> 'P3'
+tr-00932,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-00933,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00936,drop,exact duplicate of tr-00766
+tr-00958,drop,invalid/truncated target JSON; no label reconstruction
+tr-00960,drop,invalid/truncated target JSON; no label reconstruction
+tr-00967,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-00968,drop,exact duplicate of tr-00239
+tr-00975,drop,invalid/truncated target JSON; no label reconstruction
+tr-00977,drop,exact duplicate of tr-00272
+tr-00978,drop,invalid/truncated target JSON; no label reconstruction
+tr-00979,drop,invalid/truncated target JSON; no label reconstruction
+tr-00980,drop,invalid/truncated target JSON; no label reconstruction
+tr-00985,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '02/09/2026' -> '2026-09-02'
+tr-00986,fix,unique explicit claim amount: amount_paise 1975 -> 197500
+tr-00987,fix,legacy priority key/value: priority None -> 'P3'
+tr-01000,drop,exact duplicate of tr-00238
+tr-01006,fix,legacy priority key/value: priority None -> 'P3'
+tr-01011,drop,exact duplicate of tr-00221
+tr-01012,fix,normalize transaction ID: txn_id 'np 78549 05014' -> 'NP7854905014'
+tr-01017,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-01019,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-01023,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-01028,fix,legacy priority key/value: priority None -> 'P3'
+tr-01030,drop,exact duplicate of tr-00342
+tr-01044,drop,exact duplicate of tr-01016
+tr-01046,fix,legacy priority key/value: priority None -> 'P2'; legacy date format: txn_date '25/06/2026' -> '2026-06-25'
+tr-01047,fix,remove quoted earlier emails from training input
+tr-01048,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-01052,fix,remove quoted earlier emails from training input
+tr-01067,drop,exact duplicate of tr-00445
+tr-01070,drop,invalid/truncated target JSON; no label reconstruction
+tr-01075,fix,remove quoted earlier emails from training input
+tr-01083,fix,legacy priority key/value: priority None -> 'P2'
+tr-01085,drop,exact duplicate of tr-00883
+tr-01086,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-01087,drop,invalid/truncated target JSON; no label reconstruction
+tr-01089,fix,legacy priority key/value: priority None -> 'P3'
+tr-01093,drop,exact duplicate of tr-00408
+tr-01095,fix,unique explicit claim amount: amount_paise 592 -> 59200; remove quoted earlier emails from training input
+tr-01104,drop,exact duplicate of tr-00954
+tr-01108,drop,exact duplicate of tr-00632
+tr-01109,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-01112,fix,remove quoted earlier emails from training input
+tr-01115,fix,legacy priority key/value: priority None -> 'P2'
+tr-01131,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-01133,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '25/07/2026' -> '2026-07-25'
+tr-01134,drop,exact duplicate of tr-00446
+tr-01135,drop,exact duplicate of tr-00686
+tr-01136,fix,normalize transaction ID: txn_id 'NP 5804974985' -> 'NP5804974985'
+tr-01139,drop,exact duplicate of tr-00354
+tr-01141,drop,exact duplicate of tr-00356
+tr-01143,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '12/09/2026' -> '2026-09-12'
+tr-01144,fix,remove quoted earlier emails from training input
+tr-01146,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-01151,fix,legacy priority key/value: priority None -> 'P1'
+tr-01158,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '30/06/2026' -> '2026-06-30'
+tr-01176,drop,exact duplicate of tr-00148
+tr-01178,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '09/08/2026' -> '2026-08-09'
+tr-01183,drop,exact duplicate of tr-00617
+tr-01188,fix,normalize transaction ID: txn_id 'np0530288495' -> 'NP0530288495'
+tr-01199,drop,invalid/truncated target JSON; no label reconstruction
+tr-01202,fix,legacy priority key/value: priority None -> 'P3'
+tr-01204,drop,exact duplicate of tr-00767
+tr-01205,fix,remove quoted earlier emails from training input
+tr-01208,fix,remove quoted earlier emails from training input
+tr-01222,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-01230,fix,remove quoted earlier emails from training input
+tr-01233,fix,remove quoted earlier emails from training input
+tr-01238,fix,normalize transaction ID: txn_id 'NP-7739480420' -> 'NP7739480420'
+tr-01239,drop,exact duplicate of tr-00842
+tr-01241,fix,remove quoted earlier emails from training input
+tr-01246,drop,exact duplicate of tr-00851
+tr-01248,drop,exact duplicate of tr-00856
+tr-01250,drop,exact duplicate of tr-01058
+tr-01260,drop,exact duplicate of tr-01054
+tr-01274,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '23/07/2026' -> '2026-07-23'
+tr-01275,drop,exact duplicate of tr-00947
+tr-01286,fix,legacy priority key/value: priority None -> 'P2'
+tr-01301,fix,legacy priority key/value: priority None -> 'P3'
+tr-01305,fix,schema priority precedence: priority 'P3' -> 'P2'
+tr-01311,fix,unique explicit claim amount: amount_paise 497 -> 49799
+tr-01319,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-01326,fix,legacy priority key/value: priority None -> 'P3'
+tr-01331,fix,legacy priority key/value: priority None -> 'P3'
+tr-01333,fix,remove quoted earlier emails from training input
+tr-01343,fix,legacy priority key/value: priority None -> 'P3'; legacy date format: txn_date '05/07/2026' -> '2026-07-05'
+tr-01355,fix,unique explicit claim amount: amount_paise 467 -> 46700
+tr-01359,fix,legacy priority key/value: priority None -> 'P3'
+tr-01363,fix,normalize transaction ID: txn_id 'np 25586 43472' -> 'NP2558643472'
+tr-01365,fix,remove quoted earlier emails from training input
+tr-01366,fix,legacy priority key/value: priority None -> 'P1'; legacy date format: txn_date '10/09/2026' -> '2026-09-10'
+tr-01370,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-01375,fix,unique explicit claim amount: amount_paise 31855 -> 3185500
+tr-01378,fix,remove quoted earlier emails from training input
+tr-01381,drop,exact duplicate of tr-00886
+tr-01385,fix,remove quoted earlier emails from training input
+tr-01386,fix,legacy priority key/value: priority None -> 'P3'
+tr-01393,drop,exact duplicate of tr-00039
+tr-01398,drop,exact duplicate of tr-00625
+tr-01399,fix,remove quoted earlier emails from training input
+tr-01403,fix,schema priority precedence: priority 'P3' -> 'P1'
+tr-01407,fix,schema priority precedence: priority 'P1' -> 'P3'
+tr-01409,drop,exact duplicate of tr-01208
+tr-01413,fix,legacy priority key/value: priority None -> 'P3'
+tr-01419,drop,exact duplicate of tr-00303
+tr-01427,drop,exact duplicate of tr-01268
+tr-01433,drop,exact duplicate of tr-00896
+tr-01441,fix,legacy priority key/value: priority None -> 'P3'
+tr-01443,drop,exact duplicate of tr-01357

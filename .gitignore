@@ -1,0 +1,10 @@
+private_data/
+candidate_pack/
+data/
+training_assessment.zip
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+checkpoints/
+runs/
+.env

@@ -1,0 +1,57 @@
+{
+  "adapter/adapter_model.safetensors": {
+    "unchanged": true,
+    "sha256": "ac2fd2cb0376ef76a7352eb3e16c9e1515fdf4eb8db9e8bf6180c2ce14b07e10"
+  },
+  "predictions_test.jsonl": {
+    "unchanged": true,
+    "sha256": "3cb1c60b08f9547a92f33c4e9d5a11dad83a3879bd72468d8e36e3cd2cd23435"
+  },
+  "pipeline.py": {
+    "unchanged": true,
+    "sha256": "1602a8ed300863b5cd83f9f4566a7fbf0060b2862302d1d40f067edf9839b5a2"
+  },
+  "audit.py": {
+    "unchanged": true,
+    "sha256": "9e1dd3ae7c59f08743a99de2a189f825faf1ba7a173935a40b4507774ba43136"
+  },
+  "score.py": {
+    "unchanged": true,
+    "sha256": "92b4d76aa2118d610fc88acf31404657bd328b77457ecbca5c333cac90f8d10a"
+  },
+  "test_predictions": {
+    "rows": 400,
+    "ids_match_original_order": true,
+    "json_object_outputs": 400
+  },
+  "failures": {
+    "rows": 57,
+    "field_errors": {
+      "priority": 48,
+      "needs_human": 20,
+      "txn_date": 7,
+      "category": 8,
+      "amount_paise": 3,
+      "channel": 1
+    },
+    "original_outputs_and_gold_preserved": true
+  },
+  "adapter": {
+    "validated_safetensors_header_and_byte_ranges": true,
+    "parameters": 8798208,
+    "gpu_reload_performed_during_packaging": false
+  },
+  "notebook": {
+    "python_cells_syntax_valid": true,
+    "embedded_sources_match_repository": true,
+    "original_executed_notebook_preserved": true,
+    "portable_setup_gpu_rerun": false
+  },
+  "limitations": [
+    "Full dev prediction file was not included in original export; failures checked against original dev labels and aggregate metrics.",
+    "Portable setup and inference wrapper were syntax-checked only; no additional GPU run during packaging."
+  ],
+  "audit_tests": {
+    "passed": 7
+  }
+}

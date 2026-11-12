@@ -1,0 +1,23 @@
+{
+  "run": "compact_fp16",
+  "config": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "quant4": false,
+    "rank": 16,
+    "alpha": 32,
+    "lr": 0.0002,
+    "epochs": 2,
+    "seed": 42,
+    "clean": true,
+    "compact": true,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+  },
+  "exact_match": 0.625,
+  "mean_field_acc": 0.9325,
+  "peak_gpu_GiB": 1.5348238945007324,
+  "peak_reserved_GiB": 3.154296875,
+  "training_minutes": 18.751945210983347,
+  "timing_scope": "full_training",
+  "trainable_parameters": 8798208,
+  "max_seq_length": 288
+}

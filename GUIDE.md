@@ -1,0 +1,1 @@
+See README.md for fresh reproduction and adapter inference. Review the three-page report and the ten explained dev failures before the live defense. The final model uses raw data because it won the controlled dev comparison; the cleaner remains an audited experiment.

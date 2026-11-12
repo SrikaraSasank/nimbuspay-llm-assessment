@@ -1,0 +1,23 @@
+{
+  "run": "clean_qlora",
+  "config": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "quant4": true,
+    "rank": 16,
+    "alpha": 32,
+    "lr": 0.0002,
+    "epochs": 2,
+    "seed": 42,
+    "clean": true,
+    "compact": false,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+  },
+  "exact_match": 0.635,
+  "mean_field_acc": 0.93375,
+  "peak_gpu_GiB": 1.5799651145935059,
+  "peak_reserved_GiB": 4.51953125,
+  "training_minutes": 26.10407460708334,
+  "timing_scope": "full_training",
+  "trainable_parameters": 8798208,
+  "max_seq_length": 288
+}
